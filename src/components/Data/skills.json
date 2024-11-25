@@ -1,5 +1,21 @@
 [
   {
+    "title":"Python",
+    "imageSrc":"skills/python.png"
+  },
+  {
+    "title": "Django",
+    "imageSrc": "skills/django.png"
+  },
+  {
+    "title": "PostgreSQL",
+    "imageSrc": "skills/postgres.jpg"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "skills/mysql.png"
+  },
+  {
     "title": "HTML",
     "imageSrc": "skills/html.png"
   },
@@ -18,21 +34,5 @@
   {
     "title": "Node",
     "imageSrc": "skills/node.png"
-  },
-  {
-    "title":"Firebase",
-    "imageSrc":"skills/firebase.png"
-  },
-  {
-    "title": "GraphQL",
-    "imageSrc": "skills/graphql.png"
-  },
-  {
-    "title": "MongoDB",
-    "imageSrc": "skills/mongodb.png"
-  },
-  {
-    "title": "Figma",
-    "imageSrc": "skills/figma.png"
   }
 ]

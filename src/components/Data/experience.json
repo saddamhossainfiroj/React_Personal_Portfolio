@@ -1,41 +1,54 @@
 [
   {
     "id": 1,
-    "role": "Senior Software Development Engineer SDE - II",
-    "organisation": "Google",
-    "startDate": "Sept, 2023",
+    "role": "Senior Software Engineer",
+    "organisation": "Esquire Technology Ltd.",
+    "startDate": "Feb, 2022",
     "endDate": "Present",
-    "location": "CA,United State",
+    "location": "Dhaka,Bangladesh",
     "experiences": [
-      "Worked on Google Gmail",
-      "Worked with the Google Bard Team"
+      "Worked on Garments ERP",
+      "Worked with the ERP Team"
     ],
-    "imageSrc": "company/google.png"
+    "imageSrc": "company/esquire.png"
   },
   {
     "id": 2,
-    "role": "Software Development Engineer SDE - I",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2022",
-    "endDate": "Aug, 2023",
-    "location": "London, UK",
+    "role": "Software Engineer",
+    "organisation": "ISHO LTD.",
+    "startDate": "Dec, 2020",
+    "endDate": "Feb, 2022",
+    "location": "Dhaka,Bangladesh",
     "experiences": [
-      "Worked on Windows 10 terminal",
-      "Worked on Window 11 Upcoming features"
+      "Worked on ISHO ERP",
+      "Worked on ISHO ERP Stock,Sales and HRM"
     ],
-    "imageSrc": "company/microsoft.png"
+    "imageSrc": "company/isho.webp"
   },
   {
     "id": 3,
-    "role": "Software Development Engineer - Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2021",
-    "endDate": "Jun, 2022",
-    "location": "Bengluru, India",
+    "role": "Software Engineer - (Contractual)",
+    "organisation": "Grammeen Distribution Ltd.",
+    "startDate": "Dec, 2019",
+    "endDate": "Nov, 2020",
+    "location": "Dhaka,Bangladesh",
     "experiences": [
-      "Worked on Nextflix payment system",
-      "Helped to create UI for video player"
+      "Worked on Live Communication System LCS",
+      "Requirement Analysis, Develop and Implementation"
     ],
-    "imageSrc": "company/netflix.png"
+    "imageSrc": "company/gdl.png"
+  },
+  {
+    "id": 4,
+    "role": "Software Engineer",
+    "organisation": "Banglafire Solution Ltd.",
+    "startDate": "March, 2015",
+    "endDate": "Nov, 2018",
+    "location": "Dhaka,Bangladesh",
+    "experiences": [
+      "Worked on Education Management ERP",
+      "Requirement Analysis, Training  and Implementation"
+    ],
+    "imageSrc": "company/banglafire.png"
   }
 ]

@@ -6,7 +6,7 @@ const Projects = () => {
     <>
 		<div className="container my-5" id="projects">
 			<h1>Projects</h1>
-			<div className="row d-flex justify-content-center align-content-center">
+			<div className="row d-flex align-items-stretch justify-content-center align-content-center">
 			{project.map((data) => {
 				return(
 					<>
@@ -21,14 +21,14 @@ const Projects = () => {
 						data-aos-duration="1000"
 						>
 							<div className="img d-flex justify-content-center align-content-center p-3">
-							<img className="card-img-top" src={`${data.imageSrc}`} alt={data.title} 
-							style={{
-								width: "250px",
-								height: "200px",
-								border: "2px solid yellow",
-								borderRadius: "10px",
-							}}
-							/>
+								<img className="card-img-top" src={`/assets/${data.imageSrc}`} alt={data.title} 
+								style={{
+									width: "250px",
+									height: "200px",
+									border: "2px solid yellow",
+									borderRadius: "10px",
+								}}
+								/>
 							</div>
 							<div className="card-body">
 								<h5 className="card-title">{data.title}</h5>
