@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.0e53e480.js",
+    "main.css": "/static/css/main.a134ffeb.css",
+    "main.js": "/static/js/main.aeea7eda.js",
     "static/js/453.2b200461.chunk.js": "/static/js/453.2b200461.chunk.js",
+    "static/media/CV of saddam hossain.pdf": "/static/media/CV of saddam hossain.39de3273372bebea907b.pdf",
     "index.html": "/index.html",
-    "static/media/About.JSX": "/static/media/About.922b2932d18361980cdf.JSX",
-    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.0e53e480.js.map": "/static/js/main.0e53e480.js.map",
+    "main.a134ffeb.css.map": "/static/css/main.a134ffeb.css.map",
+    "main.aeea7eda.js.map": "/static/js/main.aeea7eda.js.map",
     "453.2b200461.chunk.js.map": "/static/js/453.2b200461.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.0e53e480.js"
+    "static/css/main.a134ffeb.css",
+    "static/js/main.aeea7eda.js"
   ]
 }
