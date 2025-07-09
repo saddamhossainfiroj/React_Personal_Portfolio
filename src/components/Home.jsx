@@ -7,7 +7,7 @@ const Home = () => {
   const typedRef = useRef(null);
   useEffect(() => {
     const options = {
-      strings:["Welcome To My Profile", "My Name is Saddam Hossain", "I am full stack software developer","I have more than 5 year's experience in tech industry."],
+      strings:["Welcome To My Profile", "This is Saddam Hossain", "I am a full stack software developer","I have more than 5 year's experience in tech industry."],
       typeSpeed:50,
       backSpeed:50,
       loop:true,
@@ -33,7 +33,11 @@ const Home = () => {
 			data-aos-duration="1000"
 			>
 			<div className="img">
-				<img src={`/assets/${hero.imgSrc}`} alt="Hero" />
+				<img 
+					src={`/assets/${hero.imgSrc || 'default.png'}`} 
+					alt="Saddam Hossain" 
+					aria-label="Profile Picture"
+				/>
 			</div>
         </div>
       </div>

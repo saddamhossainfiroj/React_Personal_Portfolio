@@ -14,20 +14,24 @@ const Experience = () => {
 							data-aos-duration="1000"
 							>
 							<div className="left">
-							<img src={`/assets/${data.imageSrc}`} alt={data.organisation} 
-							style={{
-								width:"150px",
-								height:"100px",
-							}}
-							/>
+								<img src={`/assets/${data.imageSrc}`} alt={data.organisation} 
+								style={{
+									width:"150px",
+									height:"100px",
+								}}
+								/>
 							</div>
 							<div className="right">
 								<h2>{data.role}</h2>
-								<h4><span style={{color:"yellowgreen"}}>{data.startDate} {data.endDate}</span> <span style={{color:"yellow"}}>{data.location}</span></h4>
-								<h5><span style={{color:"yellow"}}>{data.experiences[0]}</span></h5>
-								<h5><span style={{color:"yellow"}}>{data.experiences[1]}</span></h5>
+								<h4>
+								<span style={{ color: "yellowgreen" }}>{data.startDate} {data.endDate}</span>{' '}
+								<span style={{ color: "yellow" }}>{data.location}</span>
+								</h4>
+								{data.experiences.map((exp, idx) => (
+								<h5 key={idx}><span style={{ color: "yellow" }}>{exp}</span></h5>
+								))}
 							</div>
-						</div> 
+						</div>
 					</>
 				)
 			})}

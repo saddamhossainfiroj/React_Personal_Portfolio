@@ -12,7 +12,7 @@ const Projects = () => {
 					<>
 					<div key={data.key} className="my-3 col-sm-6 col-md-4 col-lg-3 mx-3">
 						<div className="card bg-dark text-light text-center" 
-						style={{width: "18rem",
+						style={{width: "100%", maxWidth: "300px", margin: "auto",
 							border:"1px solid yellow",
 							borderRadius:"10px",
 							boxShadow: "5px 5px 10px 10px rgba(101,175,10,0.5)",
